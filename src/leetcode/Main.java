@@ -32,4 +32,17 @@ public class Main {
             String ans=solution.toLowerCase(str);
             System.out.println(ans);
         }
+
+        @Test
+        public void test135(){
+            //135.分发糖果
+            int[] ratings=new int []{1,3,4,5,2};
+            System.out.println(solution.candy(ratings));
+        }
+
+        @Test
+        public void test942(){
+            String S= "IDID";
+            System.out.println(solution.diStringMatch(S));
+        }
 }
